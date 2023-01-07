@@ -1,0 +1,430 @@
+@use "../partials/colors" as *;
+@use "../partials/mixins" as *;
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 24px;
+
+  div {
+    flex-grow: 1;
+
+    header {
+      margin-top: 16px;
+
+      nav {
+        padding: 16px 0px;
+
+        ul {
+          li {
+            margin-right: 20px;
+
+            a {
+              font-size: 17px;
+              font-weight: 500;
+
+              &:hover {
+                color: $gray-5;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+
+    form {
+      margin: 24px 0px;
+
+      input {
+        border: 1px inset $gray-5;
+        background-color: $white;
+        margin-right: 10px;
+
+        &:focus-visible {
+          appearance: none;
+          box-shadow: 1.5px 1.5px 1.5px $gray-8;
+        }
+      }
+
+      button {
+        border: 1px outset $gray-5;
+        background-color: $gray-10;
+
+        &:hover {
+          background-color: $gray-9;
+          cursor: pointer;
+        }
+
+        &:active {
+          border-style: inset;
+        }
+      }
+
+      input,
+      button {
+        border-radius: 4px;
+        padding: 5px 10px;
+        font-size: 15px;
+        color: $gray-3;
+      }
+    }
+
+    div {
+      margin-bottom: 24px;
+      width: 96%;
+
+      #message-2 {
+        margin-top: 12px;
+      }
+
+      #message-1,
+      #message-2 {
+        font-size: 15px;
+      }
+    }
+  }
+
+  footer {
+    border-top: 1px solid $gray-7;
+
+    p {
+      margin: 20px 0px;
+      font-size: 14px;
+    }
+  }
+}
+
+@include respond-to("large") {
+  body {
+    margin: 0px 23.5px;
+
+    div {
+      header {
+        margin-top: 15.65px;
+
+        nav {
+          padding: 15.65px 0px;
+
+          ul {
+            li {
+              margin-right: 19.6px;
+
+              a {
+                font-size: 16.5px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin-top: 7.85px;
+        font-size: 15.5px;
+      }
+
+      form {
+        margin: 23.5px 0px;
+
+        input {
+          margin-right: 9.8px;
+        }
+
+        input,
+        button {
+          border-radius: 4.5px;
+          padding: 4.9px 9.8px;
+          font-size: 14.5px;
+        }
+      }
+
+      div {
+        margin-bottom: 23.5px;
+
+        #message-2 {
+          margin-top: 11.75px;
+        }
+
+        #message-1,
+        #message-2 {
+          font-size: 14.5px;
+        }
+      }
+    }
+
+    footer {
+      p {
+        margin: 19.6px 0px;
+        font-size: 13.5px;
+      }
+    }
+  }
+}
+
+@include respond-to("medium") {
+  body {
+    margin: 0px 23px;
+
+    div {
+      header {
+        margin-top: 15.35px;
+
+        nav {
+          padding: 15.35px 0px;
+
+          ul {
+            li {
+              margin-right: 19.15px;
+
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin-top: 7.65px;
+        font-size: 15px;
+      }
+
+      form {
+        margin: 23px 0px;
+
+        input {
+          margin-right: 9.6px;
+        }
+
+        input,
+        button {
+          border-radius: 5px;
+          padding: 4.8px 9.6px;
+          font-size: 14px;
+        }
+      }
+
+      div {
+        margin-bottom: 23px;
+
+        #message-2 {
+          margin-top: 11.5px;
+        }
+
+        #message-1,
+        #message-2 {
+          font-size: 14px;
+        }
+      }
+    }
+
+    footer {
+      p {
+        margin: 19.15px 0px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  body {
+    margin: 0px 22.5px;
+
+    div {
+      header {
+        margin-top: 15px;
+
+        nav {
+          padding: 15px 0px;
+
+          ul {
+            li {
+              margin-right: 18.75px;
+
+              a {
+                font-size: 15.5px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin-top: 7.5px;
+        font-size: 14.5px;
+      }
+
+      form {
+        margin: 22.5px 0px;
+
+        input {
+          margin-right: 9.37px;
+        }
+
+        input,
+        button {
+          border-radius: 5.5px;
+          padding: 4.685px 9.37px;
+          font-size: 13.5px;
+        }
+      }
+
+      div {
+        margin-bottom: 22.5px;
+
+        #message-2 {
+          margin-top: 11.25px;
+        }
+
+        #message-1,
+        #message-2 {
+          font-size: 13.5px;
+        }
+      }
+    }
+
+    footer {
+      p {
+        margin: 18.75px 0px;
+        font-size: 12.5px;
+      }
+    }
+  }
+}
+
+@include respond-to("extra-small") {
+  body {
+    margin: 0px 22px;
+
+    div {
+      header {
+        margin-top: 14.65px;
+
+        nav {
+          padding: 14.65px 0px;
+
+          ul {
+            li {
+              margin-right: 18.3px;
+
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin-top: 7.3px;
+        font-size: 14px;
+      }
+
+      form {
+        margin: 22px 0px;
+
+        input {
+          margin-right: 9.15px;
+        }
+
+        input,
+        button {
+          border-radius: 6px;
+          padding: 4.575px 9.15px;
+          font-size: 13px;
+        }
+      }
+
+      div {
+        margin-bottom: 22px;
+
+        #message-2 {
+          margin-top: 11px;
+        }
+
+        #message-1,
+        #message-2 {
+          font-size: 13px;
+        }
+      }
+    }
+
+    footer {
+      p {
+        margin: 18.3px 0px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@include respond-to("extra-extra-small") {
+  body {
+    margin: 0px 21.5px;
+
+    div {
+      header {
+        margin-top: 14.35px;
+
+        nav {
+          padding: 14.35px 0px;
+
+          ul {
+            li {
+              margin-right: 17.9px;
+
+              a {
+                font-size: 14.5px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin-top: 7.15px;
+        font-size: 13.5px;
+      }
+
+      form {
+        margin: 22px 0px;
+
+        input {
+          margin-right: 8.95px;
+        }
+
+        input,
+        button {
+          border-radius: 6.5px;
+          padding: 4.475px 8.95px;
+          font-size: 12.5px;
+        }
+      }
+
+      div {
+        margin-bottom: 21.5px;
+
+        #message-2 {
+          margin-top: 10.75px;
+        }
+
+        #message-1,
+        #message-2 {
+          font-size: 12.5px;
+        }
+      }
+    }
+
+    footer {
+      p {
+        margin: 17.9px 0px;
+        font-size: 11.5px;
+      }
+    }
+  }
+}

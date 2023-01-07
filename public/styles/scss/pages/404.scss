@@ -1,0 +1,239 @@
+@use "../partials/colors" as *;
+@use "../partials/mixins" as *;
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 24px;
+
+  div {
+    flex-grow: 1;
+
+    header {
+      margin-top: 16px;
+
+      nav {
+        padding: 16px 0px;
+
+        ul {
+          li {
+            margin-right: 20px;
+
+            a {
+              font-size: 17px;
+              font-weight: 500;
+
+              &:hover {
+                color: $gray-5;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      margin: 8px 0px 24px 0px;
+      font-size: 16px;
+    }
+  }
+
+  footer {
+    border-top: 1px solid $gray-7;
+
+    p {
+      margin: 20px 0px;
+      font-size: 14px;
+    }
+  }
+}
+
+@include respond-to("large") {
+  body {
+    margin: 0px 23.5px;
+
+    div {
+      header {
+        margin-top: 15.65px;
+
+        nav {
+          padding: 15.65px 0px;
+
+          ul {
+            li {
+              margin-right: 19.6px;
+
+              a {
+                font-size: 16.5px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin: 7.85px 0px 23.5px 0px;
+        font-size: 15.5px;
+      }
+    }
+
+    footer {
+      p {
+        margin: 19.6px 0px;
+        font-size: 13.5px;
+      }
+    }
+  }
+}
+
+@include respond-to("medium") {
+  body {
+    margin: 0px 23px;
+
+    div {
+      header {
+        margin-top: 15.35px;
+
+        nav {
+          padding: 15.35px 0px;
+
+          ul {
+            li {
+              margin-right: 19.15px;
+
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin: 7.65px 0px 23px 0px;
+        font-size: 15px;
+      }
+    }
+
+    footer {
+      p {
+        margin: 19.15px 0px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@include respond-to("small") {
+  body {
+    margin: 0px 22.5px;
+
+    div {
+      header {
+        margin-top: 15px;
+
+        nav {
+          padding: 15px 0px;
+
+          ul {
+            li {
+              margin-right: 18.75px;
+
+              a {
+                font-size: 15.5px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin: 7.5px 0px 22.5px 0px;
+        font-size: 14.5px;
+      }
+    }
+
+    footer {
+      p {
+        margin: 18.75px 0px;
+        font-size: 12.5px;
+      }
+    }
+  }
+}
+
+@include respond-to("extra-small") {
+  body {
+    margin: 0px 22px;
+
+    div {
+      header {
+        margin-top: 14.65px;
+
+        nav {
+          padding: 14.65px 0px;
+
+          ul {
+            li {
+              margin-right: 18.3px;
+
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin: 7.3px 0px 22px 0px;
+        font-size: 14px;
+      }
+    }
+
+    footer {
+      p {
+        margin: 18.3px 0px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@include respond-to("extra-extra-small") {
+  body {
+    margin: 0px 21.5px;
+
+    div {
+      header {
+        margin-top: 14.35px;
+
+        nav {
+          padding: 14.35px 0px;
+
+          ul {
+            li {
+              margin-right: 17.9px;
+
+              a {
+                font-size: 14.5px;
+              }
+            }
+          }
+        }
+      }
+
+      p {
+        margin: 7.15px 0px 21.5px 0px;
+        font-size: 13.5px;
+      }
+    }
+
+    footer {
+      p {
+        margin: 17.9px 0px;
+        font-size: 11.5px;
+      }
+    }
+  }
+}

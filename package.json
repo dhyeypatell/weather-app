@@ -1,0 +1,35 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "author": "Dhyey Patel",
+  "license": "MIT",
+  "scripts": {
+    "server": "open http://localhost:3000",
+    "sass-watch": "sass --no-source-map -w public/styles/scss:public/styles/css",
+    "nodemon-watch": "nodemon src/app.js -e js,json,css,hbs,scss",
+    "dev": "npm run server && npm-run-all -p sass-watch nodemon-watch",
+    "format": "npx prettier -w `npx prettier -l .`",
+    "start": "node src/app.js"
+  },
+  "lint-staged": {
+    "**/*": "npx prettier -w -u"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "request": "^2.88.2",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "prettier": "2.8.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

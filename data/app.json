@@ -1,0 +1,22 @@
+{
+  "home": {
+    "slug": "/",
+    "title": "Weather",
+    "subTitle": "Use this site to get your weather!"
+  },
+  "about": {
+    "slug": "/about",
+    "title": "About",
+    "shortUrl": "dhyeypatel.ca"
+  },
+  "custom404": {
+    "title": "404",
+    "errorMessage": "Page not found"
+  },
+  "weather": {
+    "slug": "/weather",
+    "apiRequest": {
+      "errorMessage": "You must provide an address."
+    }
+  }
+}

@@ -1,0 +1,166 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 24px;
+}
+body div {
+  flex-grow: 1;
+}
+body div header {
+  margin-top: 16px;
+}
+body div header nav {
+  padding: 16px 0px;
+}
+body div header nav ul li {
+  margin-right: 20px;
+}
+body div header nav ul li a {
+  font-size: 17px;
+  font-weight: 500;
+}
+body div header nav ul li a:hover {
+  color: #666;
+}
+body div .shortUrl {
+  display: block;
+  margin: 8px 0px 24px 0px;
+  font-size: 15.5px;
+  width: max-content;
+}
+body div .shortUrl:hover {
+  color: #888;
+}
+body footer {
+  border-top: 1px solid #999;
+}
+body footer p {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0px 23.5px;
+  }
+  body div header {
+    margin-top: 15.65px;
+  }
+  body div header nav {
+    padding: 15.65px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 19.6px;
+  }
+  body div header nav ul li a {
+    font-size: 16.5px;
+  }
+  body div .shortUrl {
+    margin: 7.85px 0px 23.5px 0px;
+    font-size: 15px;
+  }
+  body footer p {
+    margin: 19.6px 0px;
+    font-size: 13.5px;
+  }
+}
+@media (max-width: 990px) {
+  body {
+    margin: 0px 23px;
+  }
+  body div header {
+    margin-top: 15.35px;
+  }
+  body div header nav {
+    padding: 15.35px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 19.15px;
+  }
+  body div header nav ul li a {
+    font-size: 16px;
+  }
+  body div .shortUrl {
+    margin: 7.65px 0px 23px 0px;
+    font-size: 14.5px;
+  }
+  body footer p {
+    margin: 19.15px 0px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 770px) {
+  body {
+    margin: 0px 22.5px;
+  }
+  body div header {
+    margin-top: 15px;
+  }
+  body div header nav {
+    padding: 15px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 18.75px;
+  }
+  body div header nav ul li a {
+    font-size: 15.5px;
+  }
+  body div .shortUrl {
+    margin: 7.5px 0px 22.5px 0px;
+    font-size: 14px;
+  }
+  body footer p {
+    margin: 18.75px 0px;
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0px 22px;
+  }
+  body div header {
+    margin-top: 14.65px;
+  }
+  body div header nav {
+    padding: 14.65px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 18.3px;
+  }
+  body div header nav ul li a {
+    font-size: 15px;
+  }
+  body div .shortUrl {
+    margin: 7.3px 0px 22px 0px;
+    font-size: 13.5px;
+  }
+  body footer p {
+    margin: 18.3px 0px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 340px) {
+  body {
+    margin: 0px 21.5px;
+  }
+  body div header {
+    margin-top: 14.35px;
+  }
+  body div header nav {
+    padding: 14.35px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 17.9px;
+  }
+  body div header nav ul li a {
+    font-size: 14.5px;
+  }
+  body div .shortUrl {
+    margin: 7.15px 0px 21.5px 0px;
+    font-size: 13px;
+  }
+  body footer p {
+    margin: 17.9px 0px;
+    font-size: 11.5px;
+  }
+}

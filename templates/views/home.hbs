@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>commonMeta}}
+    <link rel="stylesheet" href="/styles/css/pages/home.css" />
+  </head>
+  <body>
+    <div>
+      {{>header}}
+      <p>{{subTitle}}</p>
+      <form>
+        <input placeholder="Location" />
+        <button>Search</button>
+      </form>
+      <div>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+      </div>
+    </div>
+    {{>footer}}
+    <script src="/lib/eventListener.js"></script>
+  </body>
+</html>

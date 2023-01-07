@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://api.mapbox.com/geocoding/v5/mapbox.places/",
+  "query": ".json?access_token=pk.eyJ1IjoiZBc3ZXkyMDAyIiwiYSI6ImNsY2t3eGg2NDAzcGIzbnA2MTBzMDI4OWQifQ.wUiiQacHCNph4wBasiUJ6Q&limit=1",
+  "requestErrorMessage": "Unable to connect to location services!",
+  "locationNotFoundMessage": "Unable to find location. Try another search."
+}

@@ -1,0 +1,5 @@
+{
+  "requestUrl": "http://api.weatherstack.com/current?access_key=2aefb2874e1d81d1a8c05e19e72c56a4&query=",
+  "requestErrorMessage": "Unable to connect to weather service!",
+  "locationNotFoundMessage": "Unable to find location!"
+}

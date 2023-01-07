@@ -1,0 +1,56 @@
+@use "../partials/colors" as *;
+@use "../partials/mixins" as *;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+}
+
+ul {
+  display: flex;
+}
+
+h1 {
+  font-size: 64px;
+  color: $gray-1;
+}
+
+p {
+  line-height: 160%;
+}
+
+p,
+a {
+  color: $gray-2;
+}
+
+@include respond-to("large") {
+  h1 {
+    font-size: 61.5px;
+  }
+}
+
+@include respond-to("medium") {
+  h1 {
+    font-size: 59.1px;
+  }
+}
+
+@include respond-to("small") {
+  h1 {
+    font-size: 56.8px;
+  }
+}
+
+@include respond-to("extra-small") {
+  h1 {
+    font-size: 54.6px;
+  }
+}
+
+@include respond-to("extra-extra-small") {
+  h1 {
+    font-size: 52.45px;
+  }
+}

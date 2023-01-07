@@ -1,0 +1,312 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 24px;
+}
+body div {
+  flex-grow: 1;
+}
+body div header {
+  margin-top: 16px;
+}
+body div header nav {
+  padding: 16px 0px;
+}
+body div header nav ul li {
+  margin-right: 20px;
+}
+body div header nav ul li a {
+  font-size: 17px;
+  font-weight: 500;
+}
+body div header nav ul li a:hover {
+  color: #666;
+}
+body div p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+body div form {
+  margin: 24px 0px;
+}
+body div form input {
+  border: 1px inset #666;
+  background-color: #fff;
+  margin-right: 10px;
+}
+body div form input:focus-visible {
+  appearance: none;
+  box-shadow: 1.5px 1.5px 1.5px #ccc;
+}
+body div form button {
+  border: 1px outset #666;
+  background-color: #f1f1f1;
+}
+body div form button:hover {
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+body div form button:active {
+  border-style: inset;
+}
+body div form input,
+body div form button {
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #444;
+}
+body div div {
+  margin-bottom: 24px;
+  width: 96%;
+}
+body div div #message-2 {
+  margin-top: 12px;
+}
+body div div #message-1,
+body div div #message-2 {
+  font-size: 15px;
+}
+body footer {
+  border-top: 1px solid #999;
+}
+body footer p {
+  margin: 20px 0px;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0px 23.5px;
+  }
+  body div header {
+    margin-top: 15.65px;
+  }
+  body div header nav {
+    padding: 15.65px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 19.6px;
+  }
+  body div header nav ul li a {
+    font-size: 16.5px;
+  }
+  body div p {
+    margin-top: 7.85px;
+    font-size: 15.5px;
+  }
+  body div form {
+    margin: 23.5px 0px;
+  }
+  body div form input {
+    margin-right: 9.8px;
+  }
+  body div form input,
+  body div form button {
+    border-radius: 4.5px;
+    padding: 4.9px 9.8px;
+    font-size: 14.5px;
+  }
+  body div div {
+    margin-bottom: 23.5px;
+  }
+  body div div #message-2 {
+    margin-top: 11.75px;
+  }
+  body div div #message-1,
+  body div div #message-2 {
+    font-size: 14.5px;
+  }
+  body footer p {
+    margin: 19.6px 0px;
+    font-size: 13.5px;
+  }
+}
+@media (max-width: 990px) {
+  body {
+    margin: 0px 23px;
+  }
+  body div header {
+    margin-top: 15.35px;
+  }
+  body div header nav {
+    padding: 15.35px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 19.15px;
+  }
+  body div header nav ul li a {
+    font-size: 16px;
+  }
+  body div p {
+    margin-top: 7.65px;
+    font-size: 15px;
+  }
+  body div form {
+    margin: 23px 0px;
+  }
+  body div form input {
+    margin-right: 9.6px;
+  }
+  body div form input,
+  body div form button {
+    border-radius: 5px;
+    padding: 4.8px 9.6px;
+    font-size: 14px;
+  }
+  body div div {
+    margin-bottom: 23px;
+  }
+  body div div #message-2 {
+    margin-top: 11.5px;
+  }
+  body div div #message-1,
+  body div div #message-2 {
+    font-size: 14px;
+  }
+  body footer p {
+    margin: 19.15px 0px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 770px) {
+  body {
+    margin: 0px 22.5px;
+  }
+  body div header {
+    margin-top: 15px;
+  }
+  body div header nav {
+    padding: 15px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 18.75px;
+  }
+  body div header nav ul li a {
+    font-size: 15.5px;
+  }
+  body div p {
+    margin-top: 7.5px;
+    font-size: 14.5px;
+  }
+  body div form {
+    margin: 22.5px 0px;
+  }
+  body div form input {
+    margin-right: 9.37px;
+  }
+  body div form input,
+  body div form button {
+    border-radius: 5.5px;
+    padding: 4.685px 9.37px;
+    font-size: 13.5px;
+  }
+  body div div {
+    margin-bottom: 22.5px;
+  }
+  body div div #message-2 {
+    margin-top: 11.25px;
+  }
+  body div div #message-1,
+  body div div #message-2 {
+    font-size: 13.5px;
+  }
+  body footer p {
+    margin: 18.75px 0px;
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0px 22px;
+  }
+  body div header {
+    margin-top: 14.65px;
+  }
+  body div header nav {
+    padding: 14.65px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 18.3px;
+  }
+  body div header nav ul li a {
+    font-size: 15px;
+  }
+  body div p {
+    margin-top: 7.3px;
+    font-size: 14px;
+  }
+  body div form {
+    margin: 22px 0px;
+  }
+  body div form input {
+    margin-right: 9.15px;
+  }
+  body div form input,
+  body div form button {
+    border-radius: 6px;
+    padding: 4.575px 9.15px;
+    font-size: 13px;
+  }
+  body div div {
+    margin-bottom: 22px;
+  }
+  body div div #message-2 {
+    margin-top: 11px;
+  }
+  body div div #message-1,
+  body div div #message-2 {
+    font-size: 13px;
+  }
+  body footer p {
+    margin: 18.3px 0px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 340px) {
+  body {
+    margin: 0px 21.5px;
+  }
+  body div header {
+    margin-top: 14.35px;
+  }
+  body div header nav {
+    padding: 14.35px 0px;
+  }
+  body div header nav ul li {
+    margin-right: 17.9px;
+  }
+  body div header nav ul li a {
+    font-size: 14.5px;
+  }
+  body div p {
+    margin-top: 7.15px;
+    font-size: 13.5px;
+  }
+  body div form {
+    margin: 22px 0px;
+  }
+  body div form input {
+    margin-right: 8.95px;
+  }
+  body div form input,
+  body div form button {
+    border-radius: 6.5px;
+    padding: 4.475px 8.95px;
+    font-size: 12.5px;
+  }
+  body div div {
+    margin-bottom: 21.5px;
+  }
+  body div div #message-2 {
+    margin-top: 10.75px;
+  }
+  body div div #message-1,
+  body div div #message-2 {
+    font-size: 12.5px;
+  }
+  body footer p {
+    margin: 17.9px 0px;
+    font-size: 11.5px;
+  }
+}
